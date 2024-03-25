@@ -29,14 +29,18 @@ temperature = t0 + (q / (2 * np.pi * k * R)) * np.exp(-(v / (2 * a)) * (X - sour
 temperature_capped = np.clip(temperature, None, temp_cap)
 
 # Plot the 2D heatmap
+imratio = temperature_capped.shape[0]/temperature_capped.shape[1]
 plt.figure(figsize=(8, 6))
 plt.imshow(temperature_capped, cmap='turbo', extent=[x.min(), x.max(), y.min(), y.max()], origin='lower')
 levels = [400, 600, 800, 1000, 1200, 1400, 1600, 1800]
-cbar = plt.colorbar()
+cbar = plt.colorbar(fraction=0.05*imratio)
 cbar.ax.tick_params(axis='y', which='both', direction='in', right=True, labelright=True)
-contour = plt.contour(X, Y, temperature_capped, levels=levels, colors='black', linewidths=1)
-plt.xlabel('X Distance (m)')
-plt.ylabel('Y Distance (m)')
-plt.title('Weld Thermal Profile Heatmap (P = 1200 W)')
+contour = plt.contour(X, Y, temperature_capped, levels=levels, colors='black', linewidths=0.75)
+plt.xlabel('X Distance (m)', fontsize=9)
+plt.ylabel('Y Distance (m)', fontsize=9)
+plt.xticks(fontsize=9)
+plt.yticks(fontsize=9)
+# plt.title('Weld Thermal Profile Heatmap (P = 1200 W)')
+plt.tight_layout()
 plt.savefig('Heatmap', dpi=300)
 plt.show()

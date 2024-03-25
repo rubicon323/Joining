@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1340ccb-c4df-467a-8bab-37526ae3f8ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Joining_courswork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temperature_profiles.py" afterDir="false" />
+    <list default="true" id="e1340ccb-c4df-467a-8bab-37526ae3f8ca" name="Changes" comment="File plots a Heatmap">
+      <change beforePath="$PROJECT_DIR$/Heatmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/Heatmap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temperature_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/temperature_profiles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,20 @@
       <option name="presentableId" value="Default" />
       <updated>1711377885816</updated>
     </task>
+    <task id="LOCAL-00001" summary="File plots a Heatmap">
+      <option name="closed" value="true" />
+      <created>1711392829353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711392829353</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="File plots a Heatmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="File plots a Heatmap" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
