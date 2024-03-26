@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1340ccb-c4df-467a-8bab-37526ae3f8ca" name="Changes" comment="File plots a Heatmap">
+    <list default="true" id="e1340ccb-c4df-467a-8bab-37526ae3f8ca" name="Changes" comment="updated contour lines">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Heatmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/Heatmap.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temperature_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/temperature_profiles.py" afterDir="false" />
     </list>
@@ -23,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2eBVJNgdJpNYw2dkPiGI5kYHPWv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,7 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.temperature_profiles.executor": "Run",
+    "Python.temperature_profiles.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -66,18 +67,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711392829353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated contour lines">
+      <option name="closed" value="true" />
+      <created>1711393362542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711393362542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="File plots a Heatmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="File plots a Heatmap" />
+    <MESSAGE value="updated contour lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated contour lines" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="y_mm" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/temperature_profiles.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
